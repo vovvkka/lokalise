@@ -402,7 +402,7 @@ header .header-mobile.open-navbar .toggle-navbar span {
 
 #start-now {
   padding: 90px 75px 150px 75px;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 #start-now .start-now-block {
   display: flex;

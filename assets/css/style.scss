@@ -1508,12 +1508,16 @@ footer {
     }
 
     .header-mobile {
-      overflow: hidden;
+      overflow: auto;
       display: block;
 
       .header-mb-navbar {
         display: flex;
         justify-content: space-between;
+
+        .header-mobile-menu {
+          overflow: hidden;
+        }
       }
     }
   }

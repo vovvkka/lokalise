@@ -402,8 +402,7 @@ header .header-mobile.open-navbar .toggle-navbar span {
 
 #start-now {
   padding: 90px 75px 150px 75px;
-  background: #e0e0e0;
-  background: linear-gradient(90deg, #e0e0e0 0%, white 50%, #e0e0e0 100%);
+  background: #ffffff;
 }
 #start-now .start-now-block {
   display: flex;

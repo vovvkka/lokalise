@@ -1132,7 +1132,7 @@ footer .footer-top-content .footer-info-block .footer-site__link:hover {
     display: none;
   }
   header .header-mobile {
-    overflow: auto;
+    overflow: hidden;
     display: block;
   }
   header .header-mobile .header-mb-navbar {

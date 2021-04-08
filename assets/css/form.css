@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Graphik", sans-serif;
+  font-weight: 400;
+  background-color: white;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+#form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252842;
+}
+#form .form {
+  height: 300px;
+  width: 450px;
+  background-color: #ffffff;
+  color: #000000;
+}
+#form .form .form-inner {
+  padding: 20px 50px 0 50px;
+}
+#form .form .form-inner__title {
+  font-weight: 500;
+  text-align: center;
+}
+#form .form .form-inner .form-inner-content {
+  position: relative;
+  padding-top: 40px;
+}
+#form .form .form-inner .form-inner-content__input {
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid #305598;
+  color: #000000;
+  padding-bottom: 3px;
+  z-index: 1;
+  transition: all 0.2s linear;
+  cursor: text;
+}
+#form .form .form-inner .form-inner-content__input:focus ~ label, #form .form .form-inner .form-inner-content__input:not(:placeholder-shown) ~ label {
+  bottom: 22px;
+  font-size: 12px;
+}
+#form .form .form-inner .form-inner-content label {
+  font-size: 14px;
+  color: #3f3f3f;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  z-index: 2;
+  transition: all 0.2s linear;
+  cursor: text;
+}
+#form .form .form-inner .form-inner-bottom {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#form .form .form-inner .form-inner-bottom__submit {
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #252842;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+#form .form .form-inner .form-inner-bottom__forgot {
+  font-size: 13px;
+  color: #305598;
+  transition: all 0.2s;
+}
+#form .form .form-inner .form-inner-bottom__forgot:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=form.css.map */
